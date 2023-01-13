@@ -48,13 +48,14 @@ p {
   margin-bottom: 1.7rem;
 }
 
-a img {
+img {
   width: 30rem;
 }
 
-a img:hover {
+#selected-cookie:hover {
   animation: tremer 0.5s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
 /* screen2 */
